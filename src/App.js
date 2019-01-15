@@ -24,7 +24,6 @@ class App extends Component {
           this.setState({
             [name]: result
           });
-          console.log(this.state);
         },
         (error) => {
           console.log(error);
