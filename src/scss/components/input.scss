@@ -1,0 +1,61 @@
+@import '../var';
+
+.input {
+  button,
+  input,
+  label {
+    display: block;
+    margin-bottom: 1.5rem;
+
+    @include tablet-up {
+      display: inline-block;
+    }
+  }
+
+  button,
+  input {
+    padding: 1.5rem;
+  }
+
+  label {
+    @include tablet-up {
+      margin-right: 1.5rem;
+    }
+
+    &.hidden {
+      @include tablet-up {
+        margin-right: 0;
+      }
+    }
+  }
+
+  input {
+    width: calc(100% - 3.4rem);
+    border: 0.2rem solid #777;
+
+    @include tablet-up {
+      width: 40%;
+    }
+  }
+
+  button {
+    background-color: #777;
+    color: #fff;
+    display: block;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #777;
+    width: 100%;
+
+    @include tablet-up {
+      width: auto;
+      display: inline-block;
+    }
+
+    &.not-rounded {
+      @include tablet-up{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+    }
+  }
+}

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './../../scss/components/input.scss';
+
 class Input extends Component {
   constructor(props) {
     super(props);
@@ -31,7 +33,10 @@ class Input extends Component {
         <input id={this.props.name}
                type={this.props.visibility ? 'hidden' : 'text'}
                onChange={this.onChangeHandler}/>
-        <button onClick={() => this.fetchData()}>{this.props.btnTxt}</button>
+        <button className={this.props.visibility ? '' : 'not-rounded'}
+                onClick={() => this.fetchData()}>
+                  {this.props.btnTxt}
+        </button>
       </div>
     )
   }

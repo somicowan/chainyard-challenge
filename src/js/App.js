@@ -38,7 +38,7 @@ class App extends Component {
         <div className="single-block">
           <Input name="singleBlock"
                  btnTxt="Query"
-                 inputLabel="Enter Block Hash"
+                 inputLabel="Enter Block Hash: "
                  url="https://blockchain.info/rawblock/"
                  fetchData = {this.fetchData}/>
           <Output data={this.state.singleBlock}/>
@@ -48,7 +48,7 @@ class App extends Component {
         <div className="single-transaction">
           <Input name="singleTx"
                  btnTxt="Query"
-                 inputLabel="Enter Transaction ID"
+                 inputLabel="Enter Transaction ID: "
                  url="https://blockchain.info/rawtx/"
                  fetchData = {this.fetchData} />
           <Output data={this.state.singleTx}/>

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab:300');
+
+html {
+  font-size: 10px; //set to 10px for easy rem calculations
+}
+
+body {
+  margin: 0;
+  padding: 1.5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 1.5rem;
+}

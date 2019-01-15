@@ -1,0 +1,22 @@
+/* Breakpoints */
+$tablet-width: 768px;
+$desktop-width: 922px;
+$large-desktop-width: 1200px;
+
+@mixin tablet-up {
+  @media (min-width: $tablet-width) {
+    @content;
+  }
+}
+
+@mixin desktop-up {
+  @media (min-width: $desktop-width) {
+    @content;
+  }
+}
+
+@mixin large-desktop-up {
+  @media (min-width: $large-desktop-width) {
+    @content;
+  }
+}
