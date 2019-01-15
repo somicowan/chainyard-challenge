@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './../scss/App.scss';
 
 /* Component Imports */
 import Output from './components/Output.js';
