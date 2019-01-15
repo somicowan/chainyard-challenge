@@ -1,8 +1,14 @@
-.blockchain-challenge .output .nested-list.closed {
-  display: none;
-}
+@import 'var';
 
-.blockchain-challenge .output .nested-list .trigger {
-  cursor: pointer;
-  text-decoration: underline;
+.blockchain-challenge {
+  margin: 0 auto;
+  max-width: 102.4rem;
+
+  @include large-desktop-up {
+    max-width: 120.0rem;
+  }
+
+  hr {
+    margin: 3.0rem 0;
+  }
 }

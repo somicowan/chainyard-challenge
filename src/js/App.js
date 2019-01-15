@@ -44,6 +44,8 @@ class App extends Component {
           <Output data={this.state.singleBlock}/>
         </div>
 
+        <hr/>
+
         <h1>View Single Transaction</h1>
         <div className="single-transaction">
           <Input name="singleTx"
@@ -53,6 +55,8 @@ class App extends Component {
                  fetchData = {this.fetchData} />
           <Output data={this.state.singleTx}/>
         </div>
+
+        <hr />
 
         <h1>View Latest Block</h1>
         <div className="latest-block">
@@ -64,6 +68,7 @@ class App extends Component {
           <Output data={this.state.latestBlock}/>
         </div>
 
+        <hr />
       </div>
     );
   }

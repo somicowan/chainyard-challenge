@@ -1,0 +1,18 @@
+@import '../var';
+
+.blockchain-challenge .output {
+  .output-container {
+    background-color: #eee;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+  }
+}
+
+.blockchain-challenge .output .nested-list.closed {
+  display: none;
+}
+
+.blockchain-challenge .output .nested-list .trigger {
+  cursor: pointer;
+  text-decoration: underline;
+}

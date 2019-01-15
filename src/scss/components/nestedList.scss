@@ -1,0 +1,26 @@
+.blockchain-challenge .output .nested-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Courier New, sans-serif;
+
+  li,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    word-break: break-all;
+    margin-bottom: 0.8rem;
+
+    span {
+      font-weight: 800;
+    }
+  }
+
+  .nested-list {
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+  }
+}

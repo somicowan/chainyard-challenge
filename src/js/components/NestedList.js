@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-
 import ListItem from './ListItem.js';
+
+import './../../scss/components/nestedList.scss';
 
 function renderListItem(data) {
     let rendered = [];
