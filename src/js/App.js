@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   fetchData = (name, val, url) => {
-    const query = url+val;
+    const query = url+val+"?cors=true";
     fetch(query)
       .then(res => res.json())
       .then(

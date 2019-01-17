@@ -1,5 +1,7 @@
 This project is my attempt at solving [Chainyard Coding Challenge](https://github.com/Chainyard/coding-challenge). It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+A running version of this project can be viewed at: [https://chainyard-challenge.herokuapp.com/](https://chainyard-challenge.herokuapp.com/)
+
 ## Available Scripts
 
 In the project directory, you can run:
